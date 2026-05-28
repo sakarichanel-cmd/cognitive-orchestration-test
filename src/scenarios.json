@@ -1,1 +1,19 @@
-[]
+{
+  "scenarios": [
+    {
+      "id": "scenario_01_kitchen",
+      "title": "The Kitchen Chaos",
+      "context": "You are hosting a massive dinner party tonight for 15 people. Your kitchen counter is a disaster zone of raw ingredients...",
+      "options": [
+        {
+          "text": "Stop. Step back. Let's make a checklist on this whiteboard. Column A is prep work...",
+          "vector_weights": { "scaffolder": 3, "architect": 2, "mechanical": 1 }
+        },
+        {
+          "text": "Let’s just chop these onions first. Once that’s done, we’ll look at the garlic...",
+          "vector_weights": { "granular_iterationist": 3, "co_pilot": 2 }
+        }
+      ]
+    }
+  ]
+}
