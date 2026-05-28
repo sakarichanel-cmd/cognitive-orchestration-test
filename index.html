@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Orchestration Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app">
+        <h1>Cognitive Orchestration Diagnostic</h1>
+        <div id="quiz-container">
+            <!-- Scenarios will be injected here dynamically by src/evaluator.js -->
+        </div>
+        <div id="results-container" class="hidden">
+            <h2>Your Operational Profile</h2>
+            <p id="profile-output"></p>
+        </div>
+    </main>
+    <script src="src/evaluator.js"></script>
+</body>
+</html>
